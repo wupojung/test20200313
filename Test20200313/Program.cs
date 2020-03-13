@@ -6,14 +6,14 @@ namespace Test20200313
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Enjoy game ");
             int hp = 50;
             while (true)
             {
                 //check is game over 
                 if (hp <= 0)
                 {
-                    Console.WriteLine("GG");
+                    Console.WriteLine("Game Over");
                     break;
                 }
                 //input attack
